@@ -96,11 +96,11 @@ sudo systemctl enable story && \
 sudo systemctl status story
 ```
 ### Check logs
-```console
+```sh
 # for story-geth
 sudo journalctl -u story-geth -f -o cat
 ```
-```console
+```sh
 # for story
 sudo journalctl -u story -f -o cat
 ```
